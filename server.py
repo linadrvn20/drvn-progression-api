@@ -22,7 +22,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # ---------------------------------------------------------------------
-PAYMENT_REQUIRED = False          # flip to True once CDP keys are set
+PAYMENT_REQUIRED = True        # flip to True once CDP keys are set
 PRICE_USDC = "0.02"               # price per call
 YOUR_WALLET_ADDRESS = "0xe7b7a8F420c3f18E04D4E7E7Ad62233640Cc1FC5"
 NETWORK = "eip155:8453"           # Base mainnet. Use "eip155:84532"
