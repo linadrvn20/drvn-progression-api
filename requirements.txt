@@ -1,3 +1,4 @@
 flask
 x402
 cdp-sdk
+httpx
